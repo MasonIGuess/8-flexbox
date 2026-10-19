@@ -1,0 +1,27 @@
+html {
+    background-color: rgb(202, 195, 150);
+}
+
+body {
+    margin: 0;
+}
+
+.site-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: bisque;
+}
+
+.site-link {
+    background-color: rgb(69, 172, 198);
+    margin: 0 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.site-link:hover {
+    background-color: aquamarine;
+}

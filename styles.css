@@ -1,20 +1,27 @@
 html {
     background-color: rgb(202, 195, 150);
+    font-family: "interpol-sans", sans-serif;
+font-weight: 400;
+font-style: bold;
 }
 
 body {
     margin: 0;
 }
 
+.site-header {
+    background-color: aqua;
+    padding: 20px;
+    margin-top: 10px;
+}
+
 .site-links {
     list-style: none;
     padding: 0;
     display: flex;
-    background-color: bisque;
 }
 
 .site-link {
-    background-color: rgb(69, 172, 198);
     margin: 0 10px;
     padding: 10px;
     text-decoration: none;
@@ -24,4 +31,34 @@ body {
 
 .site-link:hover {
     background-color: aquamarine;
+    text-decoration: underline;
+}
+
+.sidebar {
+    background-color: beige;
+    flex: 0 0 200px;
+    padding: 20px;
+}
+
+.site-main {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.site-footer {
+    background-color: rgb(138, 138, 255);
+    padding: 20px;
+    
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.two-col {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
 }
